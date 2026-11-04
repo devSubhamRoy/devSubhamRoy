@@ -23,10 +23,10 @@
 
 Backend-focused full stack developer specializing in **PHP, Laravel, and Modern Frontend SPAs**. I build secure, high-performance database-driven web applications with clean MVC architecture, RESTful APIs, and enterprise **Role-Based Access Control (RBAC)**.
 
-Currently working as a **Software Engineer at Hunt Digital Media**, maintaining high-volume production applications with JWT/token authentication, third-party payment processing integrations, and optimized MySQL/PostgreSQL relational schemas.
+Currently working as a **Software Engineer at Hunt Digital Media**, maintaining high-volume loan management platforms with JWT authentication, third-party payment processing integrations, and optimized MySQL/PostgreSQL relational schemas.
 
 - 📍 Based in **Coochbehar, West Bengal, India**
-- 💼 Open to **full-time roles** and **enterprise consulting/freelance projects**
+- 💼 Open to **full-time roles** and **enterprise freelance/consulting projects**
 - 🚀 Specialized in **CRM systems, Lead Pipelines, RBAC, RDBMS normalization, and Full-Stack APIs**
 
 ---
@@ -71,12 +71,12 @@ Currently working as a **Software Engineer at Hunt Digital Media**, maintaining 
 
 ### 💼 Job & Freelance Projects (CRM, RBAC & ERP)
 
-#### 1. SwiftDesk — Enterprise Sales CRM & Multi-Database Lead Tracking Engine
-An enterprise-grade sales CRM and lead lifecycle platform separating high-volume lead ingestion from sales accounting using an isolated dual-database architecture.
+#### 1. SwiftDesk — Enterprise Sales CRM & Multi-Database Lead Engine
+An enterprise-grade sales CRM and lead lifecycle platform separating high-volume lead ingestion from sales accounting using a dual-database architecture.
 
-**Stack:** Laravel (REST API) · React · TypeScript · Vite · MySQL (Multi-DB: `maindb` + `swiftdesk_sales`) · Tailwind CSS
+**Stack:** Laravel (REST API) · React · TypeScript · Vite · MySQL (Multi-DB) · Tailwind CSS
 
-- Dual-database isolation to eliminate write lock-contention during peak lead acquisition
+- Dual-database isolation (`maindb` + `swiftdesk_sales`) to eliminate database write contention
 - End-to-end sales lead lifecycle pipeline with Closer Manager (CM) assignment workflows
 - Granular Role-Based Access Control (RBAC) across branch managers, tele-callers, and executives
 - Real-time quote and proforma sales-order generation engine
@@ -84,28 +84,30 @@ An enterprise-grade sales CRM and lead lifecycle platform separating high-volume
 ---
 
 #### 2. HealthSaathi247 — Healthcare Clinic CRM & Patient Appointment Engine
-A HIPAA-aware healthcare CRM and patient appointment engine engineered for multi-specialty wellness and diabetes management clinics.
+A patient intake and appointment management CRM engineered for healthcare clinics and wellness providers.
 
-**Stack:** PHP 8 · Laravel 12 · MySQL · Eloquent ORM · Tailwind CSS · REST APIs
+**Stack:** PHP 8 · Laravel 12 · MySQL · Blade · REST APIs · RBAC
 
-- Healthcare lead intake pipeline with doctor consultation scheduling and automated slot conflict prevention
-- Normalized database schemas for practitioner availability, patient records, and consultation history
-- Administrative triage dashboard for care coordinators to track patient journeys and assign wellness coaches
+- Automated consultation slot scheduling with real-time double-booking conflict prevention
+- Patient triage pipeline tracking consultations, assigned wellness doctors, and follow-ups
+- Normalized relational database schema for doctor rosters, clinic branches, and patient records
+- Role-based staff access control protecting patient consultation history and medical reports
 
 ---
 
-#### 3. EduTrack (Tuition Management) — Educational Institute ERP & Fee RDBMS
-A comprehensive educational management ERP covering student admissions, batch allocation, attendance tracking, and installment fee accounting.
+#### 3. Tuition & Institute Management — Educational ERP & Fee RDBMS
+A comprehensive institutional resource planning (ERP) system handling student admissions, batch allocation, and fee accounting.
 
-**Stack:** PHP · Laravel · MySQL · Blade · Bootstrap / Tailwind CSS · Eloquent ORM
+**Stack:** Laravel · MySQL · Blade · Bootstrap / Tailwind · Eloquent ORM
 
-- 3NF relational database schema handling complex one-to-many and many-to-many relationships
+- 3NF relational database structure handling complex one-to-many installment fee structures
 - Automated fee billing module calculating overdue dues, penalty waivers, and generating PDF receipts
-- Role-based staff portals (Admin, Teachers, Cashier) with strict financial record immutability
+- Role-based login interfaces for Institute Administrators, Teachers, and Cashiers
+- Secure transactional reconciliation preventing discrepancies in cash and digital fee collections
 
 ---
 
-### 🚀 Personal Projects (Full-Stack & E-Commerce)
+### 🚀 Personal Projects
 
 #### 4. MediFind — Emergency Healthcare & Pharmacy Locator
 A full-stack emergency healthcare web application enabling users to locate nearby hospitals, clinics, and ambulance services in real time.
@@ -121,26 +123,26 @@ A full-stack emergency healthcare web application enabling users to locate nearb
 ---
 
 #### 5. ShoppingHub — Multi-Category E-Commerce & Inventory Management
-A custom e-commerce store with completely separated customer storefront (`user_pannel`) and back-office warehouse management (`admin`).
+A dual-tier e-commerce shopping platform featuring separated customer storefront and back-office warehouse management.
 
-**Stack:** PHP (OOP) · JavaScript · Bootstrap · AJAX · MySQL
+**Stack:** PHP (OOP) · JavaScript · Bootstrap · AJAX · MySQL · OMS
 
 - Responsive UI with product search, category filters, and cart management
 - Secure checkout with server-side validation and session-based authentication
-- Admin panel for product inventory control, stock decrement triggers, and order dispatch tracking
+- Admin panel for product inventory control, stock thresholds, and order dispatch tracking
 
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devsubhamroy/ShoppingHub)
 
 ---
 
-#### 6. GlamCosmetics — D2C Cosmetics & Skincare E-Commerce Platform
-A direct-to-consumer e-commerce storefront tailored for cosmetics and beauty collections.
+#### 6. GlamCosmetics — Direct-to-Consumer (D2C) Beauty Brand Storefront
+Modern direct-to-consumer e-commerce portal tailored for cosmetics, skincare routines, and beauty collections.
 
-**Stack:** PHP 8 · Laravel 12 · MySQL · Blade · Tailwind CSS · JavaScript
+**Stack:** PHP · Laravel 12 · MySQL · Blade · Tailwind CSS · E-Commerce
 
-- Faceted search and filter mechanisms (skin type, ingredients, price brackets, user ratings)
-- Persistent cart storage and session handling to minimize cart abandonment
-- Normalized RDBMS schema with referential integrity constraints across reviews, orders, and customer accounts
+- Faceted product filtering by skin type, ingredients, price brackets, and customer ratings
+- Persistent session cart and checkout flows optimized for seamless mobile conversions
+- Normalized product inventory schema with referential integrity constraints across reviews and orders
 
 ---
 
