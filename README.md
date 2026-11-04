@@ -23,10 +23,10 @@
 
 Backend-focused full stack developer specializing in **PHP, Laravel, and Modern Frontend SPAs**. I build secure, high-performance database-driven web applications with clean MVC architecture, RESTful APIs, and enterprise **Role-Based Access Control (RBAC)**.
 
-Currently working as a **Software Engineer at Hunt Digital Media**, maintaining high-volume loan management platforms with JWT authentication, third-party payment processing integrations, and optimized MySQL/PostgreSQL relational schemas.
+Currently working as a **Software Engineer at Hunt Digital Media**, maintaining high-volume production applications with JWT/token authentication, third-party payment processing integrations, and optimized MySQL/PostgreSQL relational schemas.
 
 - 📍 Based in **Coochbehar, West Bengal, India**
-- 💼 Open to **full-time roles** and **enterprise consulting projects**
+- 💼 Open to **full-time roles** and **enterprise consulting/freelance projects**
 - 🚀 Specialized in **CRM systems, Lead Pipelines, RBAC, RDBMS normalization, and Full-Stack APIs**
 
 ---
@@ -69,30 +69,45 @@ Currently working as a **Software Engineer at Hunt Digital Media**, maintaining 
 
 ## Featured Projects
 
-### 1. SwiftDesk — Enterprise Sales CRM & Multi-Database Lead Engine
-An enterprise-grade sales CRM and lead lifecycle platform separating high-volume lead ingestion from sales accounting using a dual-database architecture.
+### 💼 Job & Freelance Projects (CRM, RBAC & ERP)
 
-**Stack:** Laravel (REST API) · React · TypeScript · Vite · MySQL (Multi-DB) · Tailwind CSS
+#### 1. SwiftDesk — Enterprise Sales CRM & Multi-Database Lead Tracking Engine
+An enterprise-grade sales CRM and lead lifecycle platform separating high-volume lead ingestion from sales accounting using an isolated dual-database architecture.
 
-- Dual-database isolation (`maindb` + `swiftdesk_sales`) to eliminate database write contention
+**Stack:** Laravel (REST API) · React · TypeScript · Vite · MySQL (Multi-DB: `maindb` + `swiftdesk_sales`) · Tailwind CSS
+
+- Dual-database isolation to eliminate write lock-contention during peak lead acquisition
 - End-to-end sales lead lifecycle pipeline with Closer Manager (CM) assignment workflows
 - Granular Role-Based Access Control (RBAC) across branch managers, tele-callers, and executives
 - Real-time quote and proforma sales-order generation engine
 
 ---
 
-### 2. LoanSaathi247 — Fintech Loan Origination System (LOS) & Admin CRM
-A comprehensive loan origination platform comprising a customer-facing loan portal and an internal administrative review CRM.
+#### 2. HealthSaathi247 — Healthcare Clinic CRM & Patient Appointment Engine
+A HIPAA-aware healthcare CRM and patient appointment engine engineered for multi-specialty wellness and diabetes management clinics.
 
-**Stack:** PHP 8 · Laravel 12 · MySQL · Blade · Tailwind CSS · REST APIs
+**Stack:** PHP 8 · Laravel 12 · MySQL · Eloquent ORM · Tailwind CSS · REST APIs
 
-- Underwriting workflows with automated eligibility calculation and dynamic form validation
-- Normalized ACID-compliant financial database schema handling KYC and applicant data
-- Internal RBAC allowing verification agents and underwriters to review and process applications securely
+- Healthcare lead intake pipeline with doctor consultation scheduling and automated slot conflict prevention
+- Normalized database schemas for practitioner availability, patient records, and consultation history
+- Administrative triage dashboard for care coordinators to track patient journeys and assign wellness coaches
 
 ---
 
-### 3. MediFind — Emergency Healthcare & Pharmacy Locator
+#### 3. EduTrack (Tuition Management) — Educational Institute ERP & Fee RDBMS
+A comprehensive educational management ERP covering student admissions, batch allocation, attendance tracking, and installment fee accounting.
+
+**Stack:** PHP · Laravel · MySQL · Blade · Bootstrap / Tailwind CSS · Eloquent ORM
+
+- 3NF relational database schema handling complex one-to-many and many-to-many relationships
+- Automated fee billing module calculating overdue dues, penalty waivers, and generating PDF receipts
+- Role-based staff portals (Admin, Teachers, Cashier) with strict financial record immutability
+
+---
+
+### 🚀 Personal Projects (Full-Stack & E-Commerce)
+
+#### 4. MediFind — Emergency Healthcare & Pharmacy Locator
 A full-stack emergency healthcare web application enabling users to locate nearby hospitals, clinics, and ambulance services in real time.
 
 **Stack:** PHP · Laravel · JavaScript · Bootstrap · AJAX · MySQL
@@ -105,16 +120,27 @@ A full-stack emergency healthcare web application enabling users to locate nearb
 
 ---
 
-### 4. ShoppingHub — Multi-Category E-Commerce Platform
-A full-cycle e-commerce store with fully separated storefront and back-office warehouse management.
+#### 5. ShoppingHub — Multi-Category E-Commerce & Inventory Management
+A custom e-commerce store with completely separated customer storefront (`user_pannel`) and back-office warehouse management (`admin`).
 
-**Stack:** PHP · JavaScript · Bootstrap · AJAX · MySQL
+**Stack:** PHP (OOP) · JavaScript · Bootstrap · AJAX · MySQL
 
 - Responsive UI with product search, category filters, and cart management
 - Secure checkout with server-side validation and session-based authentication
-- Admin panel for product inventory control and order dispatch tracking
+- Admin panel for product inventory control, stock decrement triggers, and order dispatch tracking
 
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devsubhamroy/ShoppingHub)
+
+---
+
+#### 6. GlamCosmetics — D2C Cosmetics & Skincare E-Commerce Platform
+A direct-to-consumer e-commerce storefront tailored for cosmetics and beauty collections.
+
+**Stack:** PHP 8 · Laravel 12 · MySQL · Blade · Tailwind CSS · JavaScript
+
+- Faceted search and filter mechanisms (skin type, ingredients, price brackets, user ratings)
+- Persistent cart storage and session handling to minimize cart abandonment
+- Normalized RDBMS schema with referential integrity constraints across reviews, orders, and customer accounts
 
 ---
 
